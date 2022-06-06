@@ -1,0 +1,11 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+  margin-left: 10px;
+}
+
+.comp-title {
+  font-weight: 500;
+}

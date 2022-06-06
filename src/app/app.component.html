@@ -1,0 +1,23 @@
+<header>
+<h3>Search Universities in you preferred countries</h3>
+</header>
+
+<body>
+<p class="comp-title">Universities Search</p>
+
+<label>Use Cache:</label>
+<input type="checkbox" name="useCache" [(ngModel)]="useCache" />
+<br/>
+<br />
+<label>Choose Preferred Country:</label>
+<select #countries id="countries" (change)="search(countries.value)">
+<option value="" selected disabled>--Choose--</option>
+<option value="India">India</option>
+<option value="United States">United States</option>
+<option value="United Kingdom">United Kingdom</option>
+</select>
+<router-outlet></router-outlet>
+</body>
+<footer>
+&copy; 2022
+</footer>

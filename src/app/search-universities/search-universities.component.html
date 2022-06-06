@@ -1,0 +1,12 @@
+<p class="comp-title">Universities List</p>
+
+<ng-container *ngFor="let university of universities; let i = index">
+    <div class="header" *ngIf="i == 0">
+        <p>Name</p>
+        <p>Website</p>
+    </div>
+    <div>
+        <p>{{university.name}}</p>
+        <p>{{university.web_pages[0]}}</p>
+    </div>
+</ng-container>

@@ -1,0 +1,13 @@
+.comp-title {
+  font-weight: 500;
+}
+
+div p {
+  display: inline-block;
+  margin: 5px;
+  width: 350px;
+}
+
+div.header p {
+  font-weight: 500;
+}
